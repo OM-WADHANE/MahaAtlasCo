@@ -1,0 +1,76 @@
+{
+  "nameKey": "app.name",
+  "nav": [
+    { "id": "overview", "href": "overview.html", "labelKey": "nav.overview" },
+    { "id": "fsi", "href": "fsi.html", "labelKey": "nav.fsi" },
+    { "id": "land", "href": "landrecords.html", "labelKey": "nav.land" },
+    { "id": "listings", "href": "listings.html", "labelKey": "nav.listings" },
+    { "id": "legal", "href": "legal.html", "labelKey": "nav.legal" },
+    { "id": "security", "href": "security.html", "labelKey": "nav.security" },
+    { "id": "broker", "href": "broker.html", "labelKey": "nav.broker" }
+  ],
+  "headerTitleKeys": {
+    "overview": "header.title_overview",
+    "fsi": "header.title_fsi",
+    "land": "header.title_land",
+    "listings": "header.title_listings",
+    "legal": "header.title_legal",
+    "security": "header.title_security",
+    "broker": "header.title_broker"
+  },
+  "charts": {
+    "propertyGrowth": {
+      "labels": ["2020", "2021", "2022", "2023", "2024", "2025"],
+      "values": [42, 48, 55, 61, 68, 74]
+    },
+    "fsiComparison": {
+      "labels": ["Residential A", "Residential B", "Commercial", "Industrial", "Mixed"],
+      "values": [1.0, 1.33, 2.7, 1.5, 2.0]
+    }
+  },
+  "listings": [
+    {
+      "id": "l1",
+      "titleKey": null,
+      "title": "Skyline Residency — Baner",
+      "location": "Pune, Maharashtra",
+      "priceDisplay": "₹ 1.85 Cr",
+      "area": "1,420 sq.ft",
+      "tag": "Premium"
+    },
+    {
+      "id": "l2",
+      "title": "Harbour View — Kharadi",
+      "location": "Pune, Maharashtra",
+      "priceDisplay": "₹ 2.40 Cr",
+      "area": "1,890 sq.ft",
+      "tag": "Sea-facing"
+    },
+    {
+      "id": "l3",
+      "title": "Heritage Court — FC Road",
+      "location": "Pune, Maharashtra",
+      "priceDisplay": "₹ 1.12 Cr",
+      "area": "980 sq.ft",
+      "tag": "City core"
+    }
+  ],
+  "securityChecklist": [
+    { "id": "encumbrance", "labelKey": "security.items.encumbrance" },
+    { "id": "title", "labelKey": "security.items.title" },
+    { "id": "rera", "labelKey": "security.items.rera" },
+    { "id": "tax", "labelKey": "security.items.tax" },
+    { "id": "survey", "labelKey": "security.items.survey" },
+    { "id": "litigation", "labelKey": "security.items.litigation" }
+  ],
+  "brokerDefaults": {
+    "gstRate": 0.18,
+    "propertyValue": 10000000,
+    "brokeragePercent": 2
+  },
+  "footer": {
+    "portfolioUrl": "https://civitasatlas.vercel.app",
+    "developedKey": "footer.developed",
+    "portfolioLabelKey": "footer.portfolio"
+  }
+}

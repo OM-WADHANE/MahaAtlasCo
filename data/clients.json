@@ -1,0 +1,13 @@
+{
+  "items": [
+    { "id": "c1", "name": "UrbanGrid", "initials": "UG", "color": "#6D28D9" },
+    { "id": "c2", "name": "Sahil Realty", "initials": "SR", "color": "#7C3AED" },
+    { "id": "c3", "name": "Konkan Lands", "initials": "KL", "color": "#8B5CF6" },
+    { "id": "c4", "name": "Pune Title Co", "initials": "PT", "color": "#5B21B6" },
+    { "id": "c5", "name": "Atlas Legal", "initials": "AL", "color": "#A78BFA" },
+    { "id": "c6", "name": "Maha Survey", "initials": "MS", "color": "#6D28D9" },
+    { "id": "c7", "name": "RERA Desk", "initials": "RD", "color": "#7C3AED" },
+    { "id": "c8", "name": "DLR Partners", "initials": "DP", "color": "#8B5CF6" }
+  ],
+  "scrollSpeedSeconds": 32
+}
