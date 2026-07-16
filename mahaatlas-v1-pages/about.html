@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MahaAtlas � About MahaAtlas</title>
+  <link rel="stylesheet" href="assets/civitas-v1.css" />
+</head>
+<body data-page="about">
+<div class="drawer-overlay" id="overlay" onclick="closeDrawer()"></div>
+<div class="drawer" id="drawer">
+  <div class="drawer-head">
+    <div class="drawer-logo">
+      <img src="MahaAtlas_ mapping Maharashtra with precision-modified.png" class="drawer-logo-img" alt="MahaAtlas Logo" />
+      <div class="drawer-logo-text">
+        <div class="dtitle">MahaAtlas</div>
+        <div class="drawer-sub">Civitas Atlas Technologies &middot; Pune</div>
+      </div>
+    </div>
+  </div>
+  <div class="drawer-nav">
+    <a href="index.html" class="drawer-item" data-nav="overview"><span class="di-icon">&#128202;</span><span>Overview</span></a>
+    <a href="fsi.html" class="drawer-item" data-nav="fsi"><span class="di-icon">&#128506;</span><span>FSI Atlas</span></a>
+    <a href="landrecords.html" class="drawer-item" data-nav="landrecords"><span class="di-icon">&#128203;</span><span>Land Records</span></a>
+
+    <a href="legal.html" class="drawer-item" data-nav="legal"><span class="di-icon">&#9878;&#65039;</span><span>Legal Atlas</span></a>
+    <a href="security.html" class="drawer-item" data-nav="security"><span class="di-icon">&#128274;</span><span>Security Analysis</span></a>
+    <a href="broker.html" class="drawer-item" data-nav="broker"><span class="di-icon">&#129309;</span><span>Broker</span></a>
+    <a href="ai.html" class="drawer-item" data-nav="ai"><span class="di-icon">&#10022;</span><span>CiVi AI</span></a>
+    <a href="about.html" class="drawer-item" data-nav="about"><span class="di-icon">&#8505;&#65039;</span><span>About</span></a>
+  </div>
+  <div class="drawer-foot">Developed by Civitas Atlas Technologies Pvt. Ltd. &middot; MahaRERA Compliant</div>
+</div>
+
+<div class="main-header">
+  <div class="header-bar">
+    <button class="nav-logo-btn" onclick="openDrawer()" title="Open menu" aria-label="Open navigation">
+      <img src="MahaAtlas_ mapping Maharashtra with precision-modified.png" alt="MahaAtlas" />
+    </button>
+    <div class="header-center">
+      <div class="header-title" id="headerTitle"><span class="ht-brand">MahaAtlas</span><span class="ht-sep">|</span><span class="ht-page">About</span></div>
+      <div class="header-sub">Maharashtra Property Intelligence</div>
+    </div>
+    <div class="header-actions">
+      <button class="h-btn active-lang" id="langBtn" onclick="toggleLang()">EN</button>
+      <div class="theme-toggle"><input type="checkbox" id="themeToggle" onchange="toggleTheme()" /><div class="tt-track"></div><div class="tt-thumb">&#9728;</div></div>
+    </div>
+  </div>
+  <div class="tab-scroll" id="tabScroll">
+    <a href="index.html" class="tab-item" data-nav="overview">Overview</a>
+    <a href="fsi.html" class="tab-item" data-nav="fsi">FSI Atlas</a>
+    <a href="landrecords.html" class="tab-item" data-nav="landrecords">Land Records</a>
+
+    <a href="legal.html" class="tab-item" data-nav="legal">Legal Atlas</a>
+    <a href="security.html" class="tab-item" data-nav="security">Security</a>
+    <a href="broker.html" class="tab-item" data-nav="broker">Broker</a>
+    <a href="ai.html" class="tab-item ai-tab-item" data-nav="ai">&#10022; CiVi AI</a>
+    <a href="about.html" class="tab-item" data-nav="about">About</a>
+  </div>
+</div>
+
+<div id="clients-mount"></div>
+
+<div class="content">
+<div class="section active" id="tab-about">
+
+  <!-- ABOUT CARD -->
+  <div class="about-card">
+    <div class="about-logo-img-wrap">
+      <img src="MahaAtlas_ mapping Maharashtra with precision-modified.png" alt="MahaAtlas Logo" class="about-logo-img" />
+    </div>
+    <h2>MahaAtlas</h2>
+    <p style="color:var(--acc);font-size:13px;font-weight:500;margin-bottom:8px;">Maharashtra Property Intelligence Platform</p>
+    <p>A smart platform for land records, real estate analytics, FSI mapping, and legal verification across Maharashtra. Covering metro cities, tier-2 cities, and rural regions with full MahaRERA compliance.</p>
+  </div>
+
+  <!-- PLATFORM CAPABILITIES -->
+  <div class="sec-card">
+    <h3>Platform Capabilities</h3>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;font-size:11px;">
+      <div style="padding:10px;background:rgba(109,40,217,0.1);border-radius:8px;text-align:center;"><div style="font-size:18px;margin-bottom:4px;">&#128506;</div><div style="color:var(--text);font-weight:600;">FSI Atlas</div><div style="color:var(--text2);">City & zone-wise FSI data</div></div>
+      <div style="padding:10px;background:rgba(109,40,217,0.1);border-radius:8px;text-align:center;"><div style="font-size:18px;margin-bottom:4px;">&#128203;</div><div style="color:var(--text);font-weight:600;">Land Records</div><div style="color:var(--text2);">Mahabhulekh / iGRAS linked</div></div>
+      <div style="padding:10px;background:rgba(109,40,217,0.1);border-radius:8px;text-align:center;"><div style="font-size:18px;margin-bottom:4px;">&#9878;&#65039;</div><div style="color:var(--text);font-weight:600;">Legal Atlas</div><div style="color:var(--text2);">Indian property law reference</div></div>
+      <div style="padding:10px;background:rgba(109,40,217,0.1);border-radius:8px;text-align:center;"><div style="font-size:18px;margin-bottom:4px;">&#128274;</div><div style="color:var(--text);font-weight:600;">Security Analysis</div><div style="color:var(--text2);">Title, EC & risk scoring</div></div>
+    </div>
+  </div>
+
+  <!-- PARENT COMPANY -->
+  <div class="parent-company-card animate-in">
+    <div class="pc-logo-wrap">
+      <img src="MahaAtlas_ mapping Maharashtra with precision-modified.png" alt="Civitas Atlas" class="pc-logo-img" />
+    </div>
+    <div class="pc-body">
+      <div class="pc-eyebrow">Parent Company</div>
+      <div class="pc-name">Civitas Atlas Technologies Pvt. Ltd.</div>
+      <div class="pc-tagline">Mapping India. Empowering Decisions.</div>
+      <p class="pc-desc">
+        Civitas Atlas Technologies is a Pune-based PropTech company building India's most comprehensive property intelligence infrastructure. MahaAtlas is its flagship product &mdash; a full-stack platform for FSI data, land records, legal compliance and AI-powered real-estate analytics across Maharashtra.
+      </p>
+      <div class="pc-meta">
+        <span class="pc-meta-item">&#128205; Pune, Maharashtra</span>
+        <span class="pc-meta-item">&#9989; MahaRERA Compliant</span>
+        <span class="pc-meta-item">&#129504; AI-Powered</span>
+      </div>
+      <a href="https://civitasatlas.vercel.app" target="_blank" rel="noopener noreferrer" class="pc-btn">
+        Visit Civitas Atlas &#8594;
+      </a>
+    </div>
+  </div>
+
+  <!-- GOVERNMENT PARTNERS -->
+  <div class="partners-section animate-in">
+    <div class="partners-section-title">Government Partners &amp; Tools</div>
+    <div class="partners-grid">
+      <div class="partner-card">
+        <span class="partner-logo">&#127963;</span><div class="partner-name">MahaRERA</div>
+        <div class="partner-type">Regulatory Data</div>
+      </div>
+      <div class="partner-card">
+        <span class="partner-logo">&#127758;</span><div class="partner-name">Mahabhulekh</div>
+        <div class="partner-type">Land Records</div>
+      </div>
+      <div class="partner-card">
+        <span class="partner-logo">&#128220;</span><div class="partner-name">IGR Maharashtra</div>
+        <div class="partner-type">Registration Data</div>
+      </div>
+      <div class="partner-card">
+        <span class="partner-logo">&#127961;&#65039;</span><div class="partner-name">MCGM / DCPR</div>
+        <div class="partner-type">Urban Planning</div>
+      </div>
+      <div class="partner-card">
+        <span class="partner-logo">&#127959;&#65039;</span><div class="partner-name">MIDC</div>
+        <div class="partner-type">Industrial Zones</div>
+      </div>
+      <div class="partner-card">
+        <span class="partner-logo">&#128647;</span><div class="partner-name">MMRDA</div>
+        <div class="partner-type">Metro TOD Zones</div>
+      </div>
+      <div class="partner-card">
+        <span class="partner-logo">&#127970;</span><div class="partner-name">PMC / PCMC</div>
+        <div class="partner-type">Pune Jurisdiction</div>
+      </div>
+      <div class="partner-card">
+        <span class="partner-logo">&#9878;&#65039;</span><div class="partner-name">MahaLegal</div>
+        <div class="partner-type">Legal Compliance</div>
+      </div>
+      <div class="partner-card">
+        <span class="partner-logo">&#10022;</span><div class="partner-name">CiVi AI</div>
+        <div class="partner-type">AI Intelligence</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- AI INTELLIGENCE SUITE -->
+  <div class="partners-section animate-in" style="margin-top:0;">
+    <div class="partners-section-title">MahaAtlas AI Intelligence Suite</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;">
+
+      <!-- CiVi AI -->
+      <div style="background:linear-gradient(135deg,rgba(109,40,217,0.18),rgba(147,51,234,0.08));border:1px solid rgba(109,40,217,0.4);border-radius:14px;padding:20px 16px;text-align:center;position:relative;overflow:hidden;">
+        <div style="position:absolute;top:0;right:0;width:60px;height:60px;background:radial-gradient(circle,rgba(109,40,217,0.25),transparent);border-radius:0 14px 0 0;"></div>
+        <div style="width:52px;height:52px;margin:0 auto 12px;background:linear-gradient(135deg,#6D28D9,#9333EA);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 6px 20px rgba(109,40,217,0.4);">&#10022;</div>
+        <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:3px;letter-spacing:0.3px;">CiVi AI</div>
+        <div style="font-size:9px;font-weight:600;color:#C084FC;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:10px;">Civitas Intelligence</div>
+        <div style="font-size:11px;color:rgba(255,255,255,0.6);line-height:1.6;margin-bottom:12px;">Maharashtra property intelligence, FSI guidance, land records search &amp; general AI assistant across all platform pages.</div>
+        <a href="ai.html" style="display:inline-block;padding:6px 16px;background:rgba(109,40,217,0.3);border:1px solid rgba(109,40,217,0.6);border-radius:20px;font-size:10px;font-weight:600;color:#C084FC;text-decoration:none;letter-spacing:0.5px;">Ask CiVi AI &#10022;</a>
+      </div>
+
+      <!-- DiVA -->
+      <div style="background:linear-gradient(135deg,rgba(232,184,75,0.12),rgba(109,40,217,0.08));border:1px solid rgba(232,184,75,0.3);border-radius:14px;padding:20px 16px;text-align:center;position:relative;overflow:hidden;">
+        <div style="position:absolute;top:0;right:0;width:60px;height:60px;background:radial-gradient(circle,rgba(232,184,75,0.2),transparent);border-radius:0 14px 0 0;"></div>
+        <div style="width:52px;height:52px;margin:0 auto 12px;background:linear-gradient(135deg,#E8B84B,#9333EA);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 6px 20px rgba(232,184,75,0.25);">&#128274;</div>
+        <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:3px;letter-spacing:0.3px;">DiVA</div>
+        <div style="font-size:9px;font-weight:600;color:#E8B84B;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:10px;">Doc Intelligence &amp; Verification</div>
+        <div style="font-size:11px;color:rgba(255,255,255,0.6);line-height:1.6;margin-bottom:12px;">Title deed analysis, encumbrance certificates, 7/12 verification, property risk assessment &amp; due diligence on Security page.</div>
+        <a href="security.html" style="display:inline-block;padding:6px 16px;background:rgba(232,184,75,0.15);border:1px solid rgba(232,184,75,0.4);border-radius:20px;font-size:10px;font-weight:600;color:#E8B84B;text-decoration:none;letter-spacing:0.5px;">Ask DiVA &#128274;</a>
+      </div>
+
+      <!-- LaIRa -->
+      <div style="background:linear-gradient(135deg,rgba(147,51,234,0.14),rgba(232,184,75,0.06));border:1px solid rgba(147,51,234,0.4);border-radius:14px;padding:20px 16px;text-align:center;position:relative;overflow:hidden;">
+        <div style="position:absolute;top:0;right:0;width:60px;height:60px;background:radial-gradient(circle,rgba(147,51,234,0.2),transparent);border-radius:0 14px 0 0;"></div>
+        <div style="width:52px;height:52px;margin:0 auto 12px;background:linear-gradient(135deg,#9333EA,#E8B84B);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;box-shadow:0 6px 20px rgba(147,51,234,0.35);">&#9878;&#65039;</div>
+        <div style="font-size:16px;font-weight:700;color:#fff;margin-bottom:3px;letter-spacing:0.3px;">LaIRa</div>
+        <div style="font-size:9px;font-weight:600;color:#C084FC;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:10px;">Legal AI Research Assistant</div>
+        <div style="font-size:11px;color:rgba(255,255,255,0.6);line-height:1.6;margin-bottom:12px;">Legal document review, generation &amp; research. Drafts Sale Deeds, Affidavits, Agreements with full Maharashtra law compliance.</div>
+        <a href="legal.html" style="display:inline-block;padding:6px 16px;background:rgba(147,51,234,0.2);border:1px solid rgba(147,51,234,0.5);border-radius:20px;font-size:10px;font-weight:600;color:#C084FC;text-decoration:none;letter-spacing:0.5px;">Ask LaIRa &#9878;&#65039;</a>
+      </div>
+
+    </div>
+    <div style="text-align:center;margin-top:14px;font-size:10px;color:rgba(255,255,255,0.28);letter-spacing:0.5px;">
+      Three specialised AI assistants &mdash; one unified Maharashtra property intelligence platform
+    </div>
+  </div>
+
+  <!-- FUTURE PRODUCTS -->
+  <div class="future-section animate-in">
+    <div class="future-section-head">&#128640; Future Products &amp; Roadmap</div>
+    <div class="future-grid">
+      <div class="future-item">
+        <div class="future-item-icon">&#129504;</div><div class="future-item-body"><div class="future-item-name">CiVi AI | Property Advisor v2</div>
+          <div class="future-item-desc">Voice-enabled AI with Marathi &amp; Hindi support. Answers complex FSI, legal and valuation queries with full MahaRERA data integration.</div>
+          <span class="future-item-badge fbadge-dev">In Development</span>
+        </div>
+      </div>
+      <div class="future-item">
+        <div class="future-item-icon">&#128737;&#65039;</div><div class="future-item-body"><div class="future-item-name">Fraud Detection Engine</div>
+          <div class="future-item-desc">ML-based title fraud detection using historical encumbrance and IGR registration cross-matching. Red-flag alerts for suspicious chains of ownership.</div>
+          <span class="future-item-badge fbadge-soon">Coming Soon</span>
+        </div>
+      </div>
+      <div class="future-item">
+        <div class="future-item-icon">&#127758;</div><div class="future-item-body"><div class="future-item-name">GIS FSI Overlay � Live Map</div>
+          <div class="future-item-desc">Interactive satellite map with FSI zone overlays, DP road widths, TOD corridors and reserved plot markers for all Maharashtra ULBs.</div>
+          <span class="future-item-badge fbadge-soon">Coming Soon</span>
+        </div>
+      </div>
+      <div class="future-item">
+        <div class="future-item-icon">&#128200;</div><div class="future-item-body"><div class="future-item-name">Valuation Intelligence Engine</div>
+          <div class="future-item-desc">Automated property valuation using ASR Ready Reckoner, recent IGR transactions and micro-market trend analysis across 50+ Maharashtra cities.</div>
+          <span class="future-item-badge fbadge-plan">Planned</span>
+        </div>
+      </div>
+      <div class="future-item">
+        <div class="future-item-icon">&#128241;</div><div class="future-item-body"><div class="future-item-name">MahaAtlas Mobile App</div>
+          <div class="future-item-desc">Native iOS &amp; Android app with offline FSI lookup, land record camera scan, push alerts for RERA project updates and auction notifications.</div>
+          <span class="future-item-badge fbadge-plan">Planned</span>
+        </div>
+      </div>
+      <div class="future-item">
+        <div class="future-item-icon">&#128279;</div><div class="future-item-body"><div class="future-item-name">Broker &amp; Developer API</div>
+          <div class="future-item-desc">REST API for real-estate platforms, brokerages and law firms to embed MahaAtlas FSI data, encumbrance checks and legal summaries into their own products.</div>
+          <span class="future-item-badge fbadge-plan">Planned</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<footer class="ma-footer">
+  <div class="ma-footer-inner">
+    <div class="ma-footer-brand">
+      <div class="ma-footer-logo-row">
+        <img src="MahaAtlas_ mapping Maharashtra with precision-modified.png" class="ma-footer-logo-img" alt="MahaAtlas" />
+        <div>
+          <div class="ma-footer-brand-name">MahaAtlas</div>
+          <div class="ma-footer-brand-sub">Civitas Atlas Technologies</div>
+        </div>
+      </div>
+      <p class="ma-footer-tagline">Maharashtra&rsquo;s AI-powered property intelligence platform. Land records, legal documents, FSI data &amp; risk analysis.</p>
+      <div class="ma-footer-ai-badges">
+        <span class="ma-footer-ai-badge civi">&#10022; CiVi AI</span>
+        <span class="ma-footer-ai-badge diva">&#128274; DiVA</span>
+        <span class="ma-footer-ai-badge laira">&#9878;&#65039; LaIRa</span>
+      </div>
+    </div>
+    <div>
+      <div class="ma-footer-col-title">Platform</div>
+      <div class="ma-footer-links">
+        <a href="index.html"><span class="fl-icon">&#128202;</span>Overview</a>
+        <a href="fsi.html"><span class="fl-icon">&#128506;</span>FSI Atlas</a>
+        <a href="landrecords.html"><span class="fl-icon">&#128203;</span>Land Records</a>
+        <a href="security.html"><span class="fl-icon">&#128274;</span>Security Analysis</a>
+      </div>
+    </div>
+    <div>
+      <div class="ma-footer-col-title">Tools</div>
+      <div class="ma-footer-links">
+        <a href="legal.html"><span class="fl-icon">&#9878;&#65039;</span>Legal Atlas</a>
+        <a href="broker.html"><span class="fl-icon">&#129309;</span>Broker</a>
+        <a href="ai.html"><span class="fl-icon">&#10022;</span>CiVi AI</a>
+        <a href="about.html"><span class="fl-icon">&#8505;&#65039;</span>About</a>
+      </div>
+    </div>
+    <div>
+      <div class="ma-footer-col-title">Company</div>
+      <div class="ma-footer-links">
+        <a href="https://civitasatlas.vercel.app" target="_blank" rel="noopener">Civitas Atlas</a>
+        <a href="about.html">About MahaAtlas</a>
+        <a href="admin.html">&#128274; Secure Login</a>
+      </div>
+    </div>
+  </div>
+  <div class="ma-footer-bottom">
+    <div class="ma-footer-copy">
+      &copy; 2024&ndash;2026 <a href="https://civitasatlas.vercel.app" target="_blank" rel="noopener">Civitas Atlas Technologies Pvt. Ltd.</a> &middot; All rights reserved
+    </div>
+    <div class="ma-footer-compliance">
+      <span class="ma-footer-badge-sm">MahaRERA Compliant</span>
+      <span class="ma-footer-badge-sm">&#10022; AI-Powered</span>
+    </div>
+  </div>
+</footer>
+
+  <!-- CiVi AI floating button -->
+  <a href="ai.html" class="civi-ai-fab" title="Ask CiVi AI">
+    <div class="civi-ai-fab-icon">&#10022;</div>
+    <div class="civi-ai-fab-label">
+      <span class="civi-ai-fab-name">CiVi AI</span>
+      <span class="civi-ai-fab-sub">Ask anything</span>
+    </div>
+  </a>
+
+  <script src="assets/civitas-v1-auth.js"></script>
+  <script src="assets/civitas-v1-core.js"></script>
+
+</body>
+</html>

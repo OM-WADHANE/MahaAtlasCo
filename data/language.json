@@ -1,0 +1,192 @@
+{
+  "en": {
+    "app": { "name": "MahaAtlas", "tagline": "Real estate intelligence for Maharashtra" },
+    "nav": {
+      "overview": "Overview",
+      "fsi": "FSI Atlas",
+      "land": "Land Records",
+      "listings": "Listings",
+      "legal": "Legal Hub",
+      "security": "Security Analysis",
+      "broker": "Broker Module"
+    },
+    "header": {
+      "title_overview": "Overview",
+      "title_fsi": "FSI Atlas",
+      "title_land": "Land Records",
+      "title_listings": "Listings",
+      "title_legal": "Legal Hub",
+      "title_security": "Security Analysis",
+      "title_broker": "Broker Module",
+      "themeLight": "Light",
+      "themeDark": "Dark",
+      "langEn": "EN",
+      "langMr": "MR",
+      "menu": "Menu"
+    },
+    "footer": {
+      "developed": "Developed by Civitas Atlas Technologies Pvt. Ltd.",
+      "portfolio": "Portfolio"
+    },
+    "overview": {
+      "heroTitle": "Land records & analytics in one place",
+      "heroSubtitle": "SaaS-grade tools for survey data, FSI, listings, and compliance checks.",
+      "growthTitle": "Property growth index",
+      "growthDesc": "Illustrative trend — connect your data pipeline for live metrics.",
+      "aboutTitle": "About MahaAtlas",
+      "purpose": "Purpose",
+      "purposeText": "Simplify land records access and real estate analytics for professionals and citizens.",
+      "mission": "Mission",
+      "missionText": "Build a secure and transparent property information system aligned with Maharashtra workflows.",
+      "developer": "Developer",
+      "developerText": "Civitas Atlas Technologies Pvt. Ltd.",
+      "portfolioLink": "View portfolio",
+      "partnersTitle": "Clients & partners"
+    },
+    "fsi": {
+      "intro": "Compare floor space index scenarios across zones. Data is configurable via app.json.",
+      "chartTitle": "FSI comparison by zone"
+    },
+    "land": {
+      "intro": "Search-ready form wired for a future Node.js + Puppeteer or API integration layer.",
+      "surveyLabel": "Survey No / CTS / Plot",
+      "surveyPlaceholder": "e.g. 45/2 or CTS 1234",
+      "districtLabel": "District / Taluka",
+      "districtPlaceholder": "e.g. Pune / Haveli",
+      "search": "Search records",
+      "sourcesTitle": "Planned integration sources",
+      "source1": "Mahabhulekh — Maharashtra land records portal",
+      "source2": "iGRAS — registration and document search",
+      "source3": "DLR Maharashtra — development land records",
+      "architecture": "Architecture: Frontend → Node.js service → Puppeteer / official APIs → Mahabhulekh, iGRAS, DLR Maharashtra. This form is UI-ready for that pipeline."
+    },
+    "listings": {
+      "intro": "Listing cards load from configuration. Extend with your CRM or MLS feed.",
+      "badge": "Featured",
+      "cta": "Details"
+    },
+    "legal": {
+      "intro": "Central hub for compliance checklists, templates, and legal workflows (config-driven)."
+    },
+    "security": {
+      "intro": "Run through the checklist. Your risk score updates as you answer YES or NO.",
+      "riskLabel": "Risk score",
+      "riskHint": "Higher score means more checks passed (lower operational risk).",
+      "items": {
+        "encumbrance": "Encumbrance certificate verified?",
+        "title": "Title chain documented?",
+        "rera": "RERA registration confirmed?",
+        "tax": "Property tax receipts current?",
+        "survey": "Survey map matches on-ground?",
+        "litigation": "No active litigation found?"
+      }
+    },
+    "broker": {
+      "intro": "Estimate brokerage with GST for quick client quotes.",
+      "valueLabel": "Property value (₹)",
+      "rateLabel": "Brokerage rate (%)",
+      "breakdown": "Breakdown",
+      "brokerage": "Brokerage",
+      "gst": "GST (18%)",
+      "total": "Total payable",
+      "calc": "Calculate",
+      "panelFooter": "Brokerage Calculator — Civitas Atlas Technologies Pvt. Ltd."
+    },
+    "common": { "learnMore": "Learn more" }
+  },
+  "mr": {
+    "app": { "name": "MahaAtlas", "tagline": "महाराष्ट्रासाठी रिअल इस्टेट बुद्धिमत्ता" },
+    "nav": {
+      "overview": "आढावा",
+      "fsi": "FSI अटलस",
+      "land": "जमीन नोंदी",
+      "listings": "याद्या",
+      "legal": "कायदेशीर केंद्र",
+      "security": "सुरक्षा विश्लेषण",
+      "broker": "दलाल विभाग"
+    },
+    "header": {
+      "title_overview": "आढावा",
+      "title_fsi": "FSI अटलस",
+      "title_land": "जमीन नोंदी",
+      "title_listings": "याद्या",
+      "title_legal": "कायदेशीर केंद्र",
+      "title_security": "सुरक्षा विश्लेषण",
+      "title_broker": "दलाल विभाग",
+      "themeLight": "उजेड",
+      "themeDark": "अंधार",
+      "langEn": "EN",
+      "langMr": "MR",
+      "menu": "मेनू"
+    },
+    "footer": {
+      "developed": "विकसित: Civitas Atlas Technologies Pvt. Ltd.",
+      "portfolio": "पोर्टफोलिओ"
+    },
+    "overview": {
+      "heroTitle": "जमीन नोंदी आणि विश्लेषण एकाच ठिकाणी",
+      "heroSubtitle": "सर्वे डेटा, FSI, याद्या आणि अनुपालन तपासणीसाठी SaaS-स्तरावरील साधने.",
+      "growthTitle": "मालमत्ता वाढ निर्देशांक",
+      "growthDesc": "प्रात्यक्षिक — थेट मेट्रिक्ससाठी आपला डेटा पाइपलाइन जोडा.",
+      "aboutTitle": "MahaAtlas विषयी",
+      "purpose": "उद्देश",
+      "purposeText": "व्यावसायिक आणि नागरिकांसाठी जमीन नोंदी आणि रिअल इस्टेट विश्लेषण सोपे करणे.",
+      "mission": "ध्येय",
+      "missionText": "महाराष्ट्राच्या प्रवाहांशी सुसंगत सुरक्षित आणि पारदर्शक मालमत्ता माहिती प्रणाली तयार करणे.",
+      "developer": "विकासक",
+      "developerText": "Civitas Atlas Technologies Pvt. Ltd.",
+      "portfolioLink": "पोर्टफोलिओ पहा",
+      "partnersTitle": "ग्राहक आणि भागीदार"
+    },
+    "fsi": {
+      "intro": "झोननुसार FSI परिस्थितींची तुलना. डेटा app.json द्वारे कॉन्फिगर करता येतो.",
+      "chartTitle": "झोननुसार FSI तुलना"
+    },
+    "land": {
+      "intro": "भविष्यातील Node.js + Puppeteer किंवा API स्तरासाठी शोध फॉर्म तयार.",
+      "surveyLabel": "सर्वे नं / CTS / प्लॉट",
+      "surveyPlaceholder": "उदा. 45/2 किंवा CTS 1234",
+      "districtLabel": "जिल्हा / तालुका",
+      "districtPlaceholder": "उदा. पुणे / हवेली",
+      "search": "नोंदी शोधा",
+      "sourcesTitle": "नियोजित एकत्रीकरण स्रोत",
+      "source1": "महाभूलेख — महाराष्ट्र जमीन नोंदी पोर्टल",
+      "source2": "iGRAS — नोंदणी आणि दस्तऐवज शोध",
+      "source3": "DLR महाराष्ट्र — विकास जमीन नोंदी",
+      "architecture": "आर्किटेक्चर: फ्रंटएंड → Node.js सेवा → Puppeteer / अधिकृत API → महाभूलेख, iGRAS, DLR महाराष्ट्र. हा फॉर्म त्या पाइपलाइनसाठी UI-तयार आहे."
+    },
+    "listings": {
+      "intro": "यादी कार्ड्स कॉन्फिगरेशनमधून लोड होतात. CRM किंवा MLS फीडने विस्तार करा.",
+      "badge": "वैशिष्ट्यपूर्ण",
+      "cta": "तपशील"
+    },
+    "legal": {
+      "intro": "अनुपालन चेकलिस्ट, नमुने आणि कायदेशीर प्रवाहांसाठी केंद्रीय केंद्र (कॉन्फिग-ड्रिव्हन)."
+    },
+    "security": {
+      "intro": "चेकलिस्ट पूर्ण करा. हो / नाही उत्तरांसह धोका गुण दृश्यमान अपडेट होतो.",
+      "riskLabel": "धोका गुण",
+      "riskHint": "जास्त गुण म्हणजे अधिक तपास पार पडले (कमी कार्यात्मक धोका).",
+      "items": {
+        "encumbrance": "भारमुक्त प्रमाणपत्र सत्यापित?",
+        "title": "मालकी साखळी दस्तऐवजीकृत?",
+        "rera": "RERA नोंदणी पुष्टी?",
+        "tax": "मालमत्ता कर पावत्या अद्ययावत?",
+        "survey": "सर्वे नकाशा जमिनीशी जुळतो?",
+        "litigation": "सक्रिय खटले नाहीत?"
+      }
+    },
+    "broker": {
+      "intro": "द्रुत ग्राहक कोटसाठी GST सह दलालीचा अंदाज.",
+      "valueLabel": "मालमत्ता मूल्य (₹)",
+      "rateLabel": "दलाली दर (%)",
+      "breakdown": "तपशीलवार",
+      "brokerage": "दलाली",
+      "gst": "GST (१८%)",
+      "total": "एकूण देय",
+      "calc": "गणना",
+      "panelFooter": "दलाली कॅल्क्युलेटर — D.P.G INVESTMENTS CO."
+    },
+    "common": { "learnMore": "अधिक जाणून घ्या" }
+  }
+}
